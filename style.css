@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 124vh;
+    background-image: url(./assets/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-line {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid white;
+    padding-inline: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#panth-a {
+    font-family: "Syne", sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#panth-b {
+    font-family: "Syne", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    left: 470px;
+}
+
+#panth-b:hover {
+    text-decoration: underline;
+}
+
+#panth-d {
+    font-family: "Syne", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    left: 950px;
+}
+
+#panth-d:hover {
+    text-decoration: underline;
+}
+
+#panth-c {
+    width: 145px;
+    font-family: "Wix Madefor Text", sans-serif;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+#panth-c:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.main1 {
+    width: 100%;
+    height: 565px;
+    display: flex;
+}
+
+.main1-l {
+    width: 50%;
+    height: 565px;
+    border-bottom: 1px solid white;
+    /* border-left: 1px solid white; */
+    border-right: 1px solid white;
+}
+
+#panth-e {
+    font-family: "Syne", sans-serif;
+    color: white;
+    font-size: 165px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.main1-r {
+    width: 46%;
+    height: 565px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.main1-r2 {
+    width: 4%;
+    height: 565px;
+    border-bottom: 1px solid white;
+
+}
+
+i {
+    color: white;
+    font-size: 30px;
+    padding-left: 35%;
+    position: relative;
+    top: 230px;
+    line-height: 80px;
+}
+
+.main2 {
+    width: 100%;
+    height: 420px;
+    display: flex;
+}
+
+.main2-l {
+    width: 50%;
+    height: inherit;
+    border-bottom: 1px solid white;
+    padding-left: 5%;
+    padding-top: 12%;
+}
+
+#panth-f {
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.main2-c {
+    width: 46%;
+    height: inherit;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    padding-left: 5%;
+    padding-top: 3%;
+
+}
+
+.main2-r {
+    width: 4.1%;
+    height: inherit;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+
+#panth-g {
+    width: 87%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 18px;
+    padding-left: 2%;
+}
+
+option {
+    background-color: #191A1B;
+}
+
+#panth-h {
+    width: 35%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    margin-top: 20px;
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 18px;
+    padding-left: 2%;
+}
+
+#panth-i {
+    width: 35%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    margin-top: 20px;
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 18px;
+    padding-left: 2%;
+    margin-left: 130px;
+}
+
+#panth-j {
+    width: 35%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 18px;
+    padding-left: 2%;
+    margin-top: 20px;
+}
+
+option {
+    background-color: #191A1B;
+    font-size: 20px;
+}
+
+#panth-k {
+    width: 35%;
+    height: 65px;
+    font-family: "Wix Madefor Text", sans-serif;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    /* letter-spacing: 1px; */
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 130px;
+    position: relative;
+    top: 10px;
+
+}
+
+#panth-k:hover {
+    color: white;
+    background-color: black;
+    /* border: 1px solid white; */
+}
+
+.main3 {
+    width: 100%;
+    height: 62px;
+    display: flex;
+}
+
+.main3-l {
+    width: 50%;
+    height: 62px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+
+}
+
+.main3-c {
+    width: 46%;
+    height: 62px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+
+}
+
+.main3-r {
+    width: 4%;
+    height: 62px;
+    border-bottom: 1px solid white;
+    /* border-right: 1px solid white; */
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+.hero-line {
+    width: 100%;
+    height: 350px;
+    background-color: #191A1B;
+    display: flex;
+}
+
+.hero-line-l {
+    width: 50%;
+    height: inherit;
+    border-right: 1px solid white;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+.hero-line-r {
+    width: 50%;
+    height: inherit;
+    /* border-right: 1px solid white; */
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+#panth-l {
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 120px;
+    font-weight: 400;
+}
+
+#panth-m {
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 5%;
+    padding-bottom: 50px;
+
+}
+
+#panth-n {
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 5%;
+    padding-bottom: 50px;
+    text-decoration: underline;
+
+}
+.hero-box
+{
+    width: 100%;
+    height: 574px;
+    
+}
+.hero2
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #191A1B;
+}
+.hero2-line
+{
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+.hero2-l
+{
+    width: 75%;
+    height: inherit;
+    /* background-color: pink; */
+}
+#panth-o
+{
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 125px;
+    font-weight: 400;
+    padding-top: 6%;
+    padding-left: 5%;
+}
+.hero2-r
+{
+    width: 25%;
+    height: inherit;
+}
+#panth-p
+{
+    object-fit: cover;
+    float: right;
+    width: 400px;
+}
+.hero23
+{
+    width: 100%;
+    height: 624px;
+    display: flex;
+}
+.hero23-l
+{
+    width: 79%;
+    height: 624px;
+    /* background-color: blueviolet; */
+    border-right: 1px solid white;
+}
+#panth-q
+{
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    padding-top: 7%;
+    padding-left: 5%;
+}
+.hero23-r
+{
+    width: 21%;
+    height: inherit;
+    padding-top: 4%;
+    
+}
+#panth-r
+{
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size: 35px;
+    line-height: 70px;
+    padding-left: 2%;
+}
+#panth-s
+{
+    width: 100%;
+    height: 120px;
+    position: relative;
+    top: 9px;
+    border: none;
+    background-color: #191A1B;
+    color: white;
+    border-top: 1px solid white;
+    font-family: "Syne", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+#panth-s:hover
+{
+    background-color: white;
+    color: #191A1B;
+    border: 1px solid #191A1B;
+}
+.hero3
+{
+    width: 100%;
+    height: 100vh;
+
+}
+.hero3-line
+{
+    width: 100%;
+    height: 400px;
+    border-bottom: 1px solid #191A1B;
+    display: flex;
+}
+.hero3-l
+{
+    width: 50%;
+    height: inherit;
+    border-right: 1px solid #191A1B;
+}
+.hero3-r
+{
+    width: 50%;
+    height: inherit;
+}
+#panth-t
+{
+    font-family: "Syne", sans-serif;
+    color: #191A1B;
+    font-size: 110px;
+    font-weight: 400;
+    padding-top: 8%;
+    padding-left: 5%;
+}
+#panth-u{
+    display: inline-block;
+    color: #191A1B;
+    font-family: "Syne", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    line-height: 40px;
+
+}
+
+#panth-v {
+    color: #191A1B;
+    font-family: "Syne", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
+.hero-lin
+{
+    width: 100%;
+    height: 430px;
+    border-bottom: 1px solid #191A1B;
+}
+#panth-w
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-li
+{
+    width: 100%;
+    height:95px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+
+
+}
+#panth-x
+{
+    padding-left: 30px;
+    float: left;
+}
+#panth-y
+{
+    padding-left: 1490px;
+    float: right;
+    
+}
+#panth-z
+{
+    width: 200px;
+    font-family: "Syne", sans-serif;
+    font-size: 50px;
+    position: relative;
+    left: 800px;
+}
+.hero4
+{
+    width: 100%;
+    height: 1200px;
+    background-color: #191A1B;
+}
+.hero4-line
+{
+    width: 100%;
+    height: 600px;
+    /* background-color: white; */
+    display: flex;
+}
+.box1-line
+{
+    width: 33.33%;
+    height: 600px;
+    background-color: white;
+    border-top: 1px solid #191A1B   ;
+}
+#panth-aa
+{
+    font-family: "Syne", sans-serif;
+    font-size: 85px;
+    font-weight: 400;
+    padding-left: 10%;
+    padding-top: 55%;
+}
+.box2-line
+{
+    width: 33.33%;
+    height: 600px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+#panth-bb
+{
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    padding-left: 8%;
+    padding-top: 10%;
+}
+#panth-cc
+{
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding-left: 8%;
+    padding-top: 55px;
+    line-height: 35px;
+}
+#panth-dd
+{
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding-left: 8%;
+    padding-top: 55px;
+    line-height: 35px;
+}
+.box3-line
+{
+    width: 33.33%;
+    height: 600px;
+    border-bottom: 1px solid white;
+    /* border-right: 1px solid white; */
+    border-top: 1px solid white;
+}
+.box4-line
+{
+    width: 33.33%;
+    height: 600px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    /* border-top: 1px solid white; */
+}
+.box5-line
+{
+    width: 33.33%;
+    height: 600px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    /* border-top: 1px solid white; */
+}
+.box6-line
+{
+    width: 33.33%;
+    height: 600px;
+    border-bottom: 1px solid white;
+    /* border-right: 1px solid white; */
+    /* border-top: 1px solid white; */
+}
+footer
+{
+    width: 100%;
+    height: 680px;
+    background-color: #FFFFFF;
+}
+.footer-line
+{
+    width: 100%;
+    height: 600px;
+    border-bottom: 1px solid #191A1B;
+    display: flex;
+}
+.footer-box
+{
+    width: 33.33%;
+    height: 600px;
+    border-right: 1px solid #191A1B;
+}
+#panth-ee
+{
+    font-family: "Syne", sans-serif;
+    font-size: 25px;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+#panth-ff
+{
+    font-family: "Syne", sans-serif;
+    color: #434445;
+    padding-left: 10%;
+    /* padding-top: %; */
+    font-size: 19px;
+    line-height: 30px;
+}
+#panth-gg
+{
+    font-family: "Syne", sans-serif;
+    color: #434445;
+    padding-left: 50%;
+    font-size: 19px;
+    position: relative;
+    bottom: 45px;
+}
+#panth-hh
+{
+    font-family: "Syne", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+#panth-ii
+{
+    font-family: "Syne", sans-serif;
+    color: #595A5A;
+    padding-left: 50%;
+    position: relative;
+    bottom: 50px;
+    line-height: 35px;
+    font-size: 20px;
+    text-decoration: underline black;
+}
+.footer2-box
+{
+    width: 66.67%;
+    height: 600px;
+    /* border-right: 1px solid #191A1B; */
+    
+}
+#panth-jj
+{
+    font-family: "Syne", sans-serif;
+    font-size: 150px;
+    font-weight: 300;
+    display: flex;
+    padding-top: 18%;
+    padding-left: 80px;
+}
